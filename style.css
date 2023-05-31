@@ -1,0 +1,80 @@
+/* Estilos gerais */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+  }
+
+  /* Header */
+
+   header {
+      background-color: #1659bf;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+  
+  /* Estilos da barra de navegação */
+  
+  nav {
+
+    background-color: #333;
+    color: #fff;
+    background-color: rgb(44, 44, 209);
+  }
+  
+  .logo {
+    font-size: 24px;
+    padding: 20px 0;
+    margin: 0;
+    color: yellow;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos da seção de destaque */
+  
+  .hero {
+    background-color: #f2f2f2;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  /* Mais estilos do site aqui */
+  
