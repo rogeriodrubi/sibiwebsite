@@ -10,7 +10,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Header */
@@ -18,24 +21,25 @@ body {
    header {
       background-color: #1659bf;
       color: #fff;
-      padding: 20px;
+      padding: 10px;
       text-align: center;
+      font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+      line-height: 1em;
     }
   
   /* Estilos da barra de navegação */
   
   nav {
-
-    background-color: #333;
     color: #fff;
-    background-color: rgb(44, 44, 209);
+    background-color: #0f4098;
+    
   }
   
   .logo {
     font-size: 24px;
-    padding: 20px 0;
+    padding: 0 120px 0 0;
     margin: 0;
-    color: yellow;
+    color: rgb(255, 255, 255);
   }
   
   .nav-links {
@@ -45,36 +49,44 @@ body {
   }
   
   .nav-links li {
-    display: inline-block;
+    display:inline-block;
   }
   
   .nav-links li a {
     display: block;
-    padding: 20px;
     text-decoration: none;
     color: #fff;
     transition: background-color 0.3s;
+    padding: 20px;
   }
+
   
   .nav-links li a:hover {
-    background-color: #555;
+    background-color: #5b80bf;
+    transition: 0.35s;
   }
   
-  /* Estilos da seção de destaque */
-  
-  .hero {
-    background-color: #f2f2f2;
-    padding: 100px 0;
-  }
-  
-  .hero h2 {
-    font-size: 36px;
-    margin: 0;
-  }
-  
-  .hero p {
-    font-size: 18px;
-  }
+/* Estilos da seção de destaque */
+
+.hero {
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Adicionado para centralizar horizontalmente */
+  height: 100vh; /* Adicionado para ocupar toda a altura da viewport */
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+}
   
   /* Mais estilos do site aqui */
   
